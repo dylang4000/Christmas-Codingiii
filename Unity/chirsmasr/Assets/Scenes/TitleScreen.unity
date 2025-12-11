@@ -1161,12 +1161,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 553547032}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.15, y: 4.78, z: 1}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -4.8399997, y: 3.3233004, z: -3.76056}
   m_LocalScale: {x: 1.1726, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1066937407}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1001 &556832915
 PrefabInstance:
@@ -2091,6 +2091,42 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3212253487617318600, guid: ac13bf20df1dab440be1549f36e0fa4d, type: 3}
   m_PrefabInstance: {fileID: 1685353150}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1066937406
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1066937407}
+  m_Layer: 0
+  m_Name: Walls and floors and stuff
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1066937407
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066937406}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.99, y: 1.4567, z: 4.76056}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1853296855}
+  - {fileID: 1803745398}
+  - {fileID: 2069745457}
+  - {fileID: 1313909692}
+  - {fileID: 553547036}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1077273556 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3212253487617318600, guid: ac13bf20df1dab440be1549f36e0fa4d, type: 3}
@@ -2750,12 +2786,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1313909688}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0.7071068, w: 0}
-  m_LocalPosition: {x: 0.15, y: 4.78, z: 10.8}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: 0.7071068, w: 0}
+  m_LocalPosition: {x: -4.8399997, y: 3.3233004, z: 6.03944}
   m_LocalScale: {x: 4.2483296, y: 1, z: 2.1162}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1066937407}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 180}
 --- !u!4 &1354680400 stripped
 Transform:
@@ -4036,11 +4072,11 @@ Transform:
   m_GameObject: {fileID: 1803745394}
   serializedVersion: 2
   m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: -5.05, y: 4.78, z: 5.79}
+  m_LocalPosition: {x: -10.04, y: 3.3233004, z: 1.0294399}
   m_LocalScale: {x: 3.6737, y: 1, z: 2.0474}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1066937407}
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
 --- !u!1001 &1852753534
 PrefabInstance:
@@ -4205,12 +4241,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1853296851}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5.79}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.99, y: -1.4567, z: 1.0294399}
   m_LocalScale: {x: 2.4201, y: 2.4201, z: 2.4201}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1066937407}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1897726842
 PrefabInstance:
@@ -4593,11 +4629,11 @@ Transform:
   m_GameObject: {fileID: 2069745453}
   serializedVersion: 2
   m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 4.99, y: 4.78, z: 5.79}
+  m_LocalPosition: {x: 0, y: 3.3233004, z: 1.0294399}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1066937407}
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 180}
 --- !u!4 &2085492911 stripped
 Transform:
@@ -4786,11 +4822,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 1181499727}
   - {fileID: 515285357}
-  - {fileID: 1853296855}
-  - {fileID: 1803745398}
-  - {fileID: 2069745457}
-  - {fileID: 1313909692}
-  - {fileID: 553547036}
   - {fileID: 567197236}
   - {fileID: 1738804335}
   - {fileID: 345811643}
+  - {fileID: 1066937407}
