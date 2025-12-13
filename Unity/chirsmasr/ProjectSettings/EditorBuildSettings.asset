@@ -9,7 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/TitleScreen.unity
     guid: d8b6fd3437c382a459d2332edd05cc0b
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
-  m_configObjects: {}
+    path: Assets/Scenes/TestScence.unity
+    guid: 36962bd988f09e54fbaba8aa5c863650
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 012b954a0f51e4545ac91856ecdafddb, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
